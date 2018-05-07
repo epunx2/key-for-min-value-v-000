@@ -13,6 +13,7 @@ def key_for_min_value(name_hash)
       end
     else
       min_value = value
+      key_for_min_value = key
     end
     counter += 1
   end
